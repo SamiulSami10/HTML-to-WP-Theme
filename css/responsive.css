@@ -1,0 +1,971 @@
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+    }
+    }
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    /* Slider section  */
+    
+    .slider-content {
+        padding-top: 100px;
+    }
+
+    .main-menu ul li {
+        margin-right: 40px;
+    }
+    
+    .slider-content h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    /* product development  */
+    .core-value-item-content h3 {
+        margin-bottom: 0;
+    }
+
+    .core-value-item-content p {
+        line-height: 1.7;
+    }
+
+    .product-development-content {
+        padding: 25px;
+    }
+
+    .product-development-content h2 {
+        font-size: 32px;
+        line-height: 1.1;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    .product-development-content p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    /* Services  */
+    .service-item {
+        margin-bottom: 25px;
+        padding: 25px;
+    }
+
+    .service-item-left {
+        margin-left: 25px;
+    }
+
+    .service-item-left-odd {
+        margin-right: 25px;
+    }
+
+    .service-item-right {
+        margin-right: 25px;
+    }
+
+    .service-item-right-odd {
+        margin-left: 25px;
+    }
+    
+    .service-item .service-item-icon {
+        margin-right: 15px;
+    }
+
+    .service-item-icon-wrapper i{
+        font-size: 40px;
+    }
+    
+    .service-item-content h3 {
+        font-size: 20px;
+        margin-bottom: 8px;
+        line-height: 1;
+    }
+    
+    .service-item-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* About Page */
+    .galley-top:after{
+        top: 140px;
+        right: 135px;
+    }
+
+    .ceo-word-section{
+        padding: 30px;
+    }
+
+    .ceo-word-main {
+        margin: 0;
+    }
+    
+    .ceo-description p {
+        padding: 20px 150px;
+    }
+
+    /* Mission Vision Page */
+
+    .vision-gallery-top img {
+        padding-left: 15px;
+    }
+
+    /* Blog Page */
+
+    .bolg-search input {
+        width: 95%;
+    }
+
+    /* Service Details Page Css */
+    .proven-perfomance-info{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .price-box {
+        margin: 0 15px !important;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1366px){
+    .main-menu ul li {
+        margin-right: 28px;
+    }
+    .header-right-btn {
+        margin-right: 20px;
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* Menu  */
+    .main-menu ul li{
+        margin-right: 15px;
+    }
+
+    .main-menu ul li a {
+        font-size: 15px;
+    }
+
+    .header-right-btn{
+        margin-right: 20px;
+    }
+
+    .header-right-btn .a-btn {
+        padding: 14px 14px;
+        font-size: 16px;
+    }
+
+    .header-right-btn .a-btn i{
+        margin-right: 10px;
+    }
+
+    /* Slider Section */
+    .slider-content {
+        padding-top: 60px;
+    }
+
+    .slider-content h1 {
+        font-size: 40px;
+    }
+
+    /* product development  */
+    .product-development-content {
+        padding: 50px 50px 0;
+    }
+
+    /* Service  */
+    .service-item-left {
+        margin-top: 50px;
+    }
+
+    .service-item {
+        margin: 0 0 50px;
+    }
+
+    .service-section-img img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .dont-wast-time-content {
+        padding-right: 20px;
+    }
+
+    /* why choose */
+    .our-strengths-content>p {
+        padding-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    .right-content {
+        padding-left: 40px;
+    }
+
+    .right-content-col {
+        padding-right: 50px;
+    }
+
+    .video-img {
+        max-width: 100%;
+        height: 140vh;
+        background-size: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /* About Page */
+
+    .galley-top:after{
+        top: 140px;
+        right: 135px;
+    }
+
+    .ceo-word-section{
+        padding: 30px;
+    }
+
+    .ceo-description .section-title {
+        padding: 20px 80px;
+    }
+
+    .ceo-word-main {
+        margin: 0;
+    }
+    
+    .ceo-description p {
+        padding: 20px 0px;
+    }
+
+    /* Mission Vision Page */
+
+    .mission-section{
+        padding: 0;
+    }
+    .mission-section .container-fluid,
+    .vision-section .container-fluid{
+        padding: 0 60px;
+    }
+
+    .our-strengths .container-fluid{
+        padding: 20px 80px;
+    }
+
+    .mission-galley-bottom {
+        padding-left: 30px;
+    }
+
+    .mission-wrapper,
+    .vision-wrapper{
+        justify-content: center !important;
+    }
+
+    .vision-items {
+        padding-bottom: 20px;
+    }
+
+    .vision-gallery-top img{
+        padding-left: 20px;
+    }
+
+    /* Blog Page */
+    .container-fluid{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .bolg-search input {
+        width: 95%;
+    }
+
+    /* Blog Page */
+
+    .bolg-search{
+        width: 90%;
+    }
+
+    .pagination li a {
+        font-size: 20px;
+    }
+
+    /* Single blog page css */
+
+    .quote-credit{
+        margin-top: 0;
+    }
+
+    /* Single Service Page Css */
+
+    .price-box {
+        margin: 30px 15px !important;
+    }
+
+    .proven-perfomance-image {
+        padding-top: 40px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Slider Section */
+
+    .slider-content {
+        padding-top: 60px;
+    }
+
+    /* product development  */
+    .product-development-content {
+        padding: 50px 0;
+    }
+
+    .product-development-section {
+        padding-bottom: 60px;
+    }
+
+    .product-development-content h2 {
+        font-size: 42px;
+    }
+
+    /* Service  */
+    .service-item {
+        margin: 0 0 50px;
+    }
+
+    /* Our Partners */
+
+    .partner-logo-wrapper {
+        margin-bottom: 20px;
+    }
+
+    /* Testimonial  */
+    .testimonial-item {
+        padding: 35px 40px;
+    }
+
+    .testimonial-section {
+        padding-top: 60px;
+    }
+
+    .testimonial-content p {
+        line-height: 26px;
+    }
+
+    /* why choose */
+    .our-strengths-content>p {
+        padding-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    .left-video {
+        padding-top: 0;
+    }
+
+    .right-content {
+        padding-left: 40px;
+        padding-top: 0;
+    }
+
+    .right-content-col {
+        padding-right: 50px;
+    }
+
+    /* About Us Page */
+
+    .ceo-word-section{
+        padding: 30px;
+    }
+
+    .ceo-word-main {
+        margin: 0;
+    }
+    
+    .ceo-description p {
+        padding: 20px 0px;
+    }
+
+    .gallery-bottom img{
+        max-width: 100%;
+    }
+
+    .product-development-img img{
+        max-width: 100%;
+    }
+
+    /* Mission Vision Page */
+
+    .mission-section{
+        padding: 0;
+    }
+    .mission-section .container-fluid,
+    .vision-section .container-fluid{
+        padding: 0 30px;
+    }
+
+    .our-strengths .container-fluid{
+        padding: 0px 80px;
+    }
+
+    .mission-galley-bottom {
+        padding-left: 30px;
+    }
+
+    .vision-items {
+        padding-bottom: 20px;
+    }
+
+    .vision-gallery-top img{
+        padding-left: 20px;
+    }
+
+    .item-icon {
+        width: 40px;
+        height: 40px;
+        padding: 30px;
+    }
+
+    /* Blog Page */
+
+    .bolg-search{
+        margin-right: 0 !important;
+        width: 100%;
+    }
+
+    .bolg-search input {
+        width: 95%;
+    }
+
+    .container-fluid{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    /* Single blog page css */
+
+    .quote-credit{
+        margin-top: 0;
+    }
+
+    /* Our Service Page css */
+
+    .service-item-icon-wrapper i {
+        font-size: 40px;
+        padding: 25px !important;
+    }
+
+    .dont-wast-time-content {
+        padding-right: 20px;
+    }
+
+    /* Service Details Page CSS */
+
+    .proven-perfomance-image {
+        padding-top: 40px;
+    }
+
+    .price-box {
+        margin: 20px 0px !important;
+        padding: 30px 20px !important;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    /* Slider section  */
+    .slider-item{
+        padding-left: 0;
+    }
+
+    .slick-dots{
+        opacity: 0;
+    }
+
+    .slider-content {
+        padding: 25px;
+        padding-top: 95px;
+    }
+
+    .slider-content h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .slider-btn {
+        padding-top: 40px;
+    }
+
+    /* product development  */
+    .product-development-section .container-fluid {
+        padding: 0 15px;
+    }
+
+    .product-development-section {
+        padding-bottom: 40px;
+    }
+
+    .product-development-content {
+        padding: 70px 0 0;
+    }
+
+    .product-development-content h2 {
+        font-size: 30px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    /* Service  */
+    .service-section .container-fluid {
+        padding: 15px;
+    }
+
+    .section-title {
+        padding-top: 20px;
+    }
+
+    .service-item {
+        margin: 0 0 50px;
+    }
+
+    /* Our Pertners */
+
+    .our-partners-section {
+        padding: 20px 0;
+    }
+
+    /* Keep Faith */
+
+    .keep-faith-section p {
+        padding: 10px 10px 70px;
+    }
+
+    .keep-faith-gallery-bottom {
+        display: flex;
+    }
+    
+    .keep-faith-gallery-bottom img {
+        width: 100%;
+    }
+
+    /* Testimonial  */
+    .testimonial-item {
+        padding: 15px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .testimonial-content p {
+        line-height: 1.5;
+    }
+
+    /* why choose */
+    .our-strengths-content>p {
+        padding-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    .right-content {
+        padding-left: 0px;
+    }
+
+    .section-title {
+        font-size: 38px;
+    }
+
+    .right-content-col {
+        padding-right: 15px;
+    }
+
+    .left-video {
+        padding-top: 0;
+    }
+
+    .video-img {
+        background-size: auto;
+    }
+
+    .left-content-col {
+        padding: 0;
+    }
+
+    /* About Page */
+
+    .form-main-content {
+        padding: 60px 50px;
+    }
+
+    .galley-top img,
+    .gallery-bottom img{
+        max-width: 100%;
+    }
+
+    .our-partners-section .container-fluid {
+        padding: 20px;
+    }
+
+    .proven-performance .container-fluid{
+        padding-left: 20px;
+    }
+
+    .ceo-word-section {
+        padding: 20px 0;
+    }
+
+    .ceo-word-main{
+        padding: 30px 20px !important;
+        margin: 0 !important;
+    }
+
+    .ceo-word-main .section-title{
+        padding: 0;
+    }
+
+    .ceo-word-section .container-fluid{
+        padding: 20px;
+    }
+
+    .ceo-description p {
+        padding: 30px 0px;
+    }
+
+    .testimonial-section h2 {
+        font-size: 30px;
+    }
+
+    /* Footer  */
+    .footer-area .container-fluid {
+        padding: 0px 15px;
+    }
+
+    .footer-top {
+        padding: 35px 0;
+    }
+    
+    .footer-top-logo-info-wrapper {
+        margin-bottom: 10px;
+    }
+    
+    .footer-menu-wrapper {
+        margin-top: 25px;
+    }
+    
+    .footer-menu-wrapper .f-menu {
+        margin-top: 15px;
+    }
+
+    .galley-top:after {
+        top: 250px;
+        right: 160px;
+    }
+
+    /* Mission Vision Page */
+    .mission-section{
+        padding: 0;
+    }
+    .mission-section .container-fluid,
+    .vision-section .container-fluid{
+        padding: 20px;
+    }
+    .mission-section img,
+    .vision-section img{
+        width:100%;
+        padding-right: 0;
+    }
+
+    .mission-content,
+    .vision-content{
+        padding-right: 20px;
+    }
+    .vision-items{
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    .item-icon {
+        font-size: 26px;
+        font-weight: 600;
+        color: #222;
+        width: 30px;
+        height: 30px;
+        padding: 20px;
+        margin-right: 25px;
+        border: 1px solid #222;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .our-strengths .container-fluid{
+        padding-right: 30px;
+    }
+
+    /* Blog Page */
+
+    .container-fluid{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .bolg-search{
+        width: 100%;
+        margin-right: 0 !important;
+    }
+
+    .bolg-search input {
+        width: 90%;
+    }
+
+    .sub-title {
+        font-size: 18px;
+    }
+
+    .card-title {
+        font-size: 22px;
+    }
+
+    .blog-date {
+        font-size: 18px;
+    }
+
+    .sidebar .card-title {
+        font-size: 20px;
+    }
+
+    .pagination li a {
+        font-size: 14px;
+        padding: 10px 8px !important;
+        font-weight: 500;
+    }
+
+    /* Single Blog Page */
+
+    .blog-hero-section {
+        padding-top: 110px;
+    }
+
+    .related-posts-section{
+        padding-bottom: 0;
+    }
+    .contact-btn {
+        padding: 15px 50px;
+    }
+
+    .comment{
+        flex-wrap: wrap;
+    }
+
+    .odd-comment{
+        padding-left: 0 !important;
+    }
+
+    .popular-posts{
+       margin-bottom: 30px;
+    }
+
+    .popular-post{
+        flex-wrap: wrap;
+    }
+
+    .popular-post .post-thumb{
+        margin-bottom: 15px;
+    }
+
+    .sidebar{
+        margin-top: 30px;
+    }
+
+    .blog-quotation {
+        padding: 20px;
+    }
+
+    .quote-text p{
+        margin-left: 0;
+    }
+
+    .quote-text p:before{
+        font-size: 30px;
+        display: inline-block;
+        padding-right: 70px;
+        position: inherit;
+    }
+
+    .quote-credit{
+        margin-top: 0;
+    }
+
+    /* Our Service Page css */
+
+    .service-item-icon-wrapper i {
+        font-size: 40px;
+        padding: 25px !important;
+    }
+
+    .services-hero-section {
+        padding-top: 119px;
+        padding-bottom: 0px;
+    }
+
+    .dont-wast-time-content {
+        padding-right: 0px;
+    }
+
+    .bring-idea-gallery-top img {
+        padding-left: 0;
+    }
+
+    /* Service Details Css */
+
+    .proven-perfomance-info.py-5.pl-100 {
+        padding: 10px;
+    }
+
+    .proven-performance-icon i {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .proven-performance-items {
+        margin: 0;
+    }
+
+    .proven-perfomance-image {
+        padding-top: 40px;
+    }
+
+    .price-box {
+        margin: 20px 0px !important;
+    }
+
+    .price-box {
+        padding: 25px !important;
+    }
+
+}
+
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}
+
+    /* Slider section  */
+    .slider-item{
+        padding-left: 0;
+    }
+
+    .slick-dots{
+        opacity: 0;
+    }
+
+    .slider-content {
+        padding: 25px;
+    }
+
+    .slider-content h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .slider-btn {
+        padding-top: 40px;
+    }
+
+    /* product development  */
+    .product-development-section .container-fluid {
+        padding: 0 15px;
+    }
+
+    .product-development-content {
+        padding: 70px 0 0;
+    }
+
+    .product-development-content h2 {
+        font-size: 30px;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    /* Service  */
+    .service-section .container-fluid {
+        padding: 15px;
+    }
+
+    .service-item {
+        margin: 0 0 50px;
+    }
+
+    /* Testimonial  */
+    .testimonial-item {
+        padding: 15px 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .testimonial-content p {
+        line-height: 1.5;
+    }
+
+    /* why choose */
+    .our-strengths-content>p {
+        padding-bottom: 20px;
+        padding-top: 25px;
+    }
+
+    .right-content {
+        padding-left: 0px;
+    }
+
+    .section-title {
+        font-size: 38px;
+    }
+
+    .right-content-col {
+        padding-right: 15px;
+    }
+
+    .left-video {
+        padding-top: 0;
+    }
+
+    .video-img {
+        background-size: auto;
+    }
+
+    .left-content-col {
+        padding: 0;
+    }
+
+    /* About Page */
+
+    /* Footer  */
+    .footer-area .container-fluid {
+        padding: 0px 15px;
+    }
+
+    .footer-top {
+        padding: 35px 0;
+    }
+    
+    .footer-top-logo-info-wrapper {
+        margin-bottom: 10px;
+    }
+    
+    .footer-menu-wrapper {
+        margin-top: 25px;
+    }
+    
+    .footer-menu-wrapper .f-menu {
+        margin-top: 15px;
+    }
+
+    /* Our Service Page css */
+
+    .service-item-icon-wrapper i {
+        font-size: 40px;
+        padding: 25px !important;
+    }
+}
