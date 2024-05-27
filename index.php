@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang=" <?php language_attributes(); ?> ">
     <head>
-        <meta charset="utf-8">
+        <meta charset="<?php bloginfo('charset'); ?>">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>AgencyX - Html Template</title>
+        <title><?php bloginfo('name').bloginfo( 'description' )?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -21,8 +21,11 @@
         <link rel="stylesheet" href=" <?php echo get_template_directory_uri(  ) ?>/css/default.css">
         <link rel="stylesheet" href=" <?php echo get_template_directory_uri(  ) ?>/css/style.css">
         <link rel="stylesheet" href=" <?php echo get_template_directory_uri(  ) ?>/css/responsive.css">
+
+        <?php wp_head(  ) ?>
+
     </head>
-    <body>
+    <body <?php body_class(  ) ?>>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -35,14 +38,14 @@
                         <div class="col-xl-3 col-lg-3 col-md-4 col-sm-8 col-8">
                             <div class="logo d-lg-flex d-inline justify-content-lg-center">
                                 <a href="index.html">
-                                    <img src=" <?php echo get_template_directory_uri(  )?>/img/logo/Logo.png" class="img-fluid" alt="">
+                                   <?php the_custom_logo();?>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-4 col-sm-4 col-4">
                             <div class="main-menu text-center">
                                 <nav id="mobile-menu">
-                                    <ul>
+                                    <!-- <ul>
                                         <li><a href="index.html">Home</a></li>
                                         <li>
                                             <a href="services.html">Our Services</a>
@@ -53,7 +56,17 @@
                                         <li><a href="mission-vision.html">Mission & Vision</a></li>
                                         <li><a href="about.html">About</a></li>
                                         <li><a href="contact.html">Contact</a></li>
-                                    </ul>
+                                    </ul> -->
+
+                                    <?php wp_nav_menu( [
+                                        'theme_location' => 'main_menu',
+                                        'container_class' => '',
+                                        'container_id' => '',
+                                        'menu_class' => '',
+                                        'menu_id' => '',
+                                    
+                                    ] ); ?>
+
                                 </nav>
                             </div>
                         </div>
@@ -743,5 +756,8 @@
         <script src="js/jquery.scrollUp.min.js"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/main.js"></script>
+
+        <?php wp_footer(  ) ?>
+
     </body>
 </html>
